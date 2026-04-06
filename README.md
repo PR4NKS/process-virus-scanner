@@ -243,20 +243,6 @@ You can adjust the following constants directly in `Run-Time-scaning.py`:
 - **Do not scan** files containing personal data or proprietary source code
 - Use a **dedicated VM or analysis machine** when scanning unknown binaries
 - This tool is intended for **personal/research use** — not a replacement for enterprise AV solutions
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! Potential improvements:
-
-- [ ] Async scanning with `aiohttp` for faster execution
-- [ ] Export scan results to JSON / HTML report
-- [ ] Trusted hash whitelist to skip known-clean processes
-- [ ] GUI frontend (Tkinter or PyQt)
-- [ ] Scheduled background scanning with cron/Task Scheduler
-- [ ] Quarantine folder instead of direct termination
-
 ---
 
 ## 📄 License
