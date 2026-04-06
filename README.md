@@ -78,7 +78,7 @@ If a file is already known to VirusTotal, results are returned instantly. If not
 ```
 📁 process-virus-scanner/
 │
-├── scaning.py           # Main scanner script
+├── Run-Time-scaning.py           # Main scanner script
 ├── requirements.txt     # Python dependencies
 └── README.md            # Documentation
 ```
@@ -114,13 +114,13 @@ pip install -r requirements.txt
 
 ```bash
 # Right-click terminal → "Run as administrator", then:
-python scaning.py
+python Run-Time-scaning.py
 ```
 
 ### Linux / macOS
 
 ```bash
-sudo python3 scaning.py
+sudo python3 Run-Time-scaning.py
 ```
 
 > Running with elevated privileges ensures access to system-level processes. Without it, some executables may be skipped due to permission restrictions.
@@ -212,7 +212,7 @@ Path: C:\Users\User\AppData\Roaming\suspicious.exe
 
 ## ⚙️ Configuration
 
-You can adjust the following constants directly in `scaning.py`:
+You can adjust the following constants directly in `Run-Time-scaning.py`:
 
 | Constant | Default | Description |
 |----------|---------|-------------|
